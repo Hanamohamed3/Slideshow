@@ -1,0 +1,32 @@
+.img-caption{
+  bottom: 10px;
+  width: 80%;
+  left: 10%;
+}
+#lightBoxContainer{
+  background-color:rgba(0, 0, 0, 0.5);
+position: fixed;
+top:0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+ #lightBox{
+  width: 50%;
+  height: 500px;
+  background-size: cover;
+  background-image:url(../images/2.jpg) ;
+ }
+ #closeBtn,#nextBtn,#prevBtn{
+  cursor: pointer;
+ }
+ h1{
+  font-family: 'Pacifico', cursive;
+ }
+
+ @media screen and (min-width:600px) and(max-width:768px){
+  #lightBox{
+    width: 100%;
+
+ }
+}
